@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>The Math Quiz Game!</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="game.css">
+<script src="game.js"></script>
+    </head>
+<body>
+        <h4 id="player1_name">Player 1</h4><span id="player1_score"></span>
+        <br>
+        <h4 id="player2_name">Player 2</h4><span id="player2_score"></span>
+        <div class="container">
+            <br>
+        <center>
+            <h1 style="color: white;", id="title">The Math Quiz Game!</h1>
+        </center>
+<center>
+    <div id="output", class="col-lg-6 col-sm-12 col-xs-18">
+<label style="font-size: 15px;">6 X 6</label>
+<h2 id="question"></h2>
+<span>
+<h1 style="font-size: 18px;">Answer: </h1> <input type="number" id="user_answer" class="form-control" placeholder="Type your answer">
+</span>
+<br>
+<button class="btn btn-primary", onclick="check_answer()">Check Answer</button>
+    </div>
+    <h1 style="font-size: 18px;">Number 1</h1>
+    <input type="number" id="number_1" class="form-control" placeholder="Enter Number 1">
+    <br><br>
+    <h1 style="font-size: 18px;">Number 2</h1>
+    <input type="number" id="number_2" class="form-control" placeholder="Enter Number 2">
+</center>
+        </div>    
+</body>

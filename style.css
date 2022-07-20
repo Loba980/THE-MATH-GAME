@@ -10,13 +10,6 @@ body
 		float: none;
 		border-radius: 15px;
 	}
-
-
-#player1_name , #player2_name
-{
-	display: inline-block;
-	margin-left: 20px;
-}
 #word
 {
 	width: 60%;
